@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Sign-up-Form</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="logo-container">
+      <div class="logo">
+        <img src="./images/odin-lined.png" />
+        <h1 class="title">Odin</h1>
+      </div>
+    </div>
+    <div class="content-container">
+      <div class="text">
+        <h4>
+          This is not a real online service! You know you need something like
+          this in life to help you realize your deepest dreams. Sign up
+          <em>now</em> to get started
+        </h4>
+        <h4 class="yknow">You <em>know</em> you want to.</h4>
+      </div>
+
+      <div class="form-container">
+        <h2>Let's do this!</h2>
+
+        <div class="horizontal">
+          <div class="input-pair">
+            <span>First Name</span>
+            <input type="text" id="first_name" name="first_name" />
+          </div>
+          <div class="input-pair">
+            <span>Last Name</span>
+            <input type="text" id="last_name" name="last_name" />
+          </div>
+        </div>
+
+        <div class="horizontal">
+          <div class="input-pair">
+            <span>Email</span>
+            <input
+              type="email"
+              id="user_email"
+              name="email"
+              placeholder="you@example.com"
+            />
+          </div>
+          <div class="input-pair">
+            <span>Phone Number</span>
+            <input type="tel" id="phone_number" name="phone_number" />
+          </div>
+        </div>
+
+        <div class="horizontal">
+          <div class="input-pair">
+            <span>*Password</span>
+            <input
+              type="password"
+              id="user_password"
+              name="password"
+              required
+            />
+          </div>
+          <div class="input-pair">
+            <span>*Confirm Password</span>
+            <input
+              type="password"
+              id="confirm_password"
+              name="confirm_password"
+              required
+            />
+          </div>
+        </div>
+      </div>
+
+      <div class="account">
+        <button type="submit">Create Account</button>
+        <h4 style="margin-top: 20px">
+          Already have an account? <span id="green">Login in</span>
+        </h4>
+      </div>
+    </div>
+  </body>
+</html>
